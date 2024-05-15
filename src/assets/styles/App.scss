@@ -1,0 +1,42 @@
+@import "node_modules/bootstrap-scss/bootstrap";
+@import './variables.scss';
+@import "node_modules/bootstrap-scss/bootstrap";
+
+
+.navbar-primary-app {
+  background: $light-blue;
+  background-repeat: no-repeat;
+  font-weight: normal;
+  border-top: 5px solid $really-light-blue;
+
+  .nav-link {
+    color: white;
+    padding-right: 2.5rem !important;
+  }
+
+  .nav-link.active {
+    color: white !important;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: $primary-yellow;
+  }
+
+  .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .navbar-toggler {
+    color: white;
+    border-color: white;
+  }
+
+  .navbar-toggler {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .offcanvas-start {
+    top: 300px !important;
+  }
+}
